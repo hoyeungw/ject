@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: ject
+Version: 0.0.0
+Summary: function/lambda helper
+Home-page: https://github.com/pydget/texting.git
+Author: Hoyeung Wong
+Author-email: hoyeungw@outlook.com
+License: UNKNOWN
+Description: ## ject
+        ##### function/lambda helper
+        
+        ### Usage
+        ```python
+        from ject.length import length
+        def fun(a,b,*args,**kwargs): return a,b,args,kwargs
+        print(length(fun))
+        ```
+Platform: UNKNOWN
+Requires-Python: >=3.8,<4.0
